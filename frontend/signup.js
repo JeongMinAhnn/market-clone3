@@ -27,8 +27,8 @@ const handleSubmit = async (event) => {
     if (data === "200") {
       div.innerText = "회원가입 성공 띠";
       div.style.color = "blue";
-      alert("회원가입에 성공하였습니다")
-      window.location.pathname = "/login.html"
+      alert("회원가입에 성공하였습니다");
+      window.location.pathname = "/login.html";
     }
   } else {
     div.innerText = "비밀번호가 일치하지 않습니다.";
