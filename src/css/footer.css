@@ -1,4 +1,4 @@
-footer {
+.footer {
   
   position: fixed;
   bottom: 0;
@@ -8,6 +8,7 @@ footer {
   padding-top: 20px;
   background-color: white;
 }
+
 
 .footer-block {
   display: flex;
@@ -22,6 +23,7 @@ footer {
   flex-direction: column;
   margin: 0 10px 0 10px;
   cursor: pointer;
+  white-space: nowrap;
 }
 .footer-icons__desc {
   font-weight: bold;
